@@ -1,6 +1,7 @@
 .navbar {
-  background-color: rgba(255, 202, 4);
+  background-color: #ffca04;
   height: 100vh;
+  width: 70px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -9,21 +10,25 @@
   right: 0;
   top: 0;
   z-index: 1000;
-  width: 60px;
-  border-left: solid 1px #000;
+  border-left: solid 2px #403340;
 }
 
 .navbar button {
-  text-align: center;
-  height: 46px;
-  width: 46px;
-  border-radius: 50%;
-  border: 2px solid;
-  background: #fff;
+  height: 52px;
+  width: 52px;
+  background-image: url("../../images/BOTON.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  padding-bottom: 8px;
+  color: #403340;
 }
 
 .navbar button:hover {
-  color: green;
+  color: #fffd70;
 }
 
 .navbar button:active {
@@ -41,7 +46,7 @@
   background: none;
 }
 .menu-bars span {
-  border: solid 2px #000;
+  border: solid 2px #403340;
   border-radius: 3px;
   padding: 3px 6px;
 }

@@ -1,0 +1,26 @@
+.bg__welcome {
+  background-image: url("../../images/bg.jpg");
+}
+.ytvideo {
+  display: flex;
+  padding: 20px 0 130px 0;
+  flex-direction: row;
+  box-shadow: 3px 3px #f4bf01;
+  justify-content: center;
+}
+.title__video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 3px 3px #f4bf01;
+}
+
+.title__video h2 {
+  font-size: 7rem;
+}
+.title__video h4 {
+  font-size: 1.7rem;
+  letter-spacing: 1.6em;
+  padding-left: 36px;
+}

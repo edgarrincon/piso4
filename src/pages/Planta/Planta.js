@@ -1,6 +1,6 @@
 import React from "react";
 
-function Pb() {
+function Planta() {
   return (
     <div className="products">
       <h1>Planta</h1>
@@ -8,4 +8,4 @@ function Pb() {
   );
 }
 
-export default Pb;
+export default Planta;
