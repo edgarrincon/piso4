@@ -5,7 +5,6 @@
   display: flex;
   padding: 20px 0 130px 0;
   flex-direction: row;
-  box-shadow: 3px 3px #f4bf01;
   justify-content: center;
 }
 .title__video {
@@ -23,4 +22,17 @@
   font-size: 1.7rem;
   letter-spacing: 1.6em;
   padding-left: 36px;
+}
+
+@media screen and (max-width: 768px) {
+  .title__video h2 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title__video h4 {
+    font-size: 1rem;
+    letter-spacing: 1em;
+  }
 }

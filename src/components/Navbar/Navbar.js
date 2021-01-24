@@ -36,19 +36,19 @@ function Navbar() {
           <Link to="/piso1" className="menu-bars">
             <button onClick={showSidebarB}>1</button>
           </Link>
-          <Link to="/pb" className="menu-bars">
+          <Link to="/planta" className="menu-bars">
             <button onClick={showSidebarB}>PB</button>
           </Link>
         </div>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <div className={sidebar ? "nav-menu-left active" : "nav-menu-left"}>
             <div>
-              <h2>Pis</h2>
+              <h2>PIS</h2>
               <h4 className="sub-title">AGE</h4>
             </div>
           </div>
           <div>
-            <h2 className="cuatro">o4</h2>
+            <h2 className="cuatro">O4</h2>
             <h4>NCY</h4>
           </div>
         </nav>

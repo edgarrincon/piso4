@@ -1,5 +1,6 @@
 import React from "react";
 import "./WelcomeVideo.css";
+import "../HeroSection/HeroSection.css";
 import YouTube from "react-youtube";
 
 window.YTConfig = {
@@ -18,18 +19,20 @@ class WelcomeVideo extends React.Component {
 
     return (
       <>
-        <div className="bg__welcome">
-          <div className="title__video">
-            <h2>PISO4</h2>
-            <h4>AGENCY</h4>
-          </div>
+        <div className="container">
+          <div className="bg__welcome">
+            <div className="title__video">
+              <h2>PISO4</h2>
+              <h4>AGENCY</h4>
+            </div>
 
-          <YouTube
-            containerClassName={"ytvideo"}
-            videoId="AT6oSIDbGkw"
-            opts={opts}
-            onReady={this._onReady}
-          />
+            <YouTube
+              containerClassName={"ytvideo"}
+              videoId="AT6oSIDbGkw"
+              opts={opts}
+              onReady={this._onReady}
+            />
+          </div>
         </div>
       </>
     );

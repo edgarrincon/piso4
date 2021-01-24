@@ -1,10 +1,13 @@
 import React from "react";
+import HeroSection from "../../components/HeroSection/HeroSection";
+import { homeObjOne, homeObjTwo } from "./Data";
 
 function Planta() {
   return (
-    <div className="products">
-      <h1>Planta</h1>
-    </div>
+    <>
+      <HeroSection {...homeObjTwo} />
+      <HeroSection {...homeObjOne} />
+    </>
   );
 }
 

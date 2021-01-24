@@ -3,7 +3,7 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "agency",
-  headline: "PISO 4",
+  headline: "PLANTA",
   description:
     "Manage Your Whole Business Using Time Management & Collaboration Tools, Reports, and More",
   buttonLabel: "Get Started",
@@ -21,7 +21,7 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: "agency",
-  headline: "PISO 4",
+  headline: "PLANTA",
   description:
     "Manage Your Whole Business Using Time Management & Collaboration Tools, Reports, and More",
   buttonLabel: "Get Started",

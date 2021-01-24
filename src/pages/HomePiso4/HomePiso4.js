@@ -1,14 +1,15 @@
 import React from "react";
 import HeroSection from "../../components/HeroSection/HeroSection";
-import { homeObjOne } from "./Data";
-import OdooVideo from "../../components/WelcomeVideo/WelcomeVideo";
+import { homeObjOne, homeObjTwo } from "./Data";
+import WelcomeVideo from "../../components/WelcomeVideo/WelcomeVideo";
 import "../../components/WelcomeVideo/WelcomeVideo.css";
 
 function HomePiso4() {
   return (
     <>
-      <OdooVideo />
+      <WelcomeVideo />
       <HeroSection {...homeObjOne} />
+      <HeroSection {...homeObjTwo} />
     </>
   );
 }
