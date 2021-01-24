@@ -92,12 +92,12 @@
 }
 
 .nav-menu.active {
-  right: 60px;
+  right: 65px;
   transition: 850ms;
 }
 
 .nav-menu-left.active {
-  left: -60px;
+  left: -65px;
   transition: 850ms;
 }
 
