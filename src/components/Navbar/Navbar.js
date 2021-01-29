@@ -23,6 +23,7 @@ function Navbar() {
         <div className="navbar">
           <Link to="#" className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} />
+            <p>Menú</p>
           </Link>
           <Link to="/" className="menu-bars">
             <button onClick={showSidebarB}>4</button>

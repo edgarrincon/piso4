@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #ffca04;
+  background-color: #ffffff;
   height: 100vh;
   width: 70px;
   display: flex;
@@ -10,29 +10,32 @@
   right: 0;
   top: 0;
   z-index: 1000;
-  border-left: solid 2px #403340;
+  border-left: solid 2px #000000;
 }
 
 .navbar button {
   height: 52px;
   width: 52px;
-  background-image: url("../../images/BOTON.png");
+  /*background-image: url("../../images/BOTON.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-color: transparent;
+  background-position: center center;*/
+  background-color: grey;
   border: none;
+  border-radius: 50%;
   font-size: 1.5rem;
   padding-bottom: 8px;
-  color: #403340;
+  color: #000000;
 }
 
 .navbar button:hover {
-  color: #fffd70;
+  color: #000000;
+  background-color: #ffca04;
 }
 
 .navbar button:active {
   transform: translateY(2px);
+  background-color: #ffca04;
 }
 
 .navbar button:focus {
@@ -46,7 +49,7 @@
   background: none;
 }
 .menu-bars span {
-  border: solid 2px #403340;
+  border: solid 2px #000000;
   border-radius: 3px;
   padding: 3px 6px;
 }
