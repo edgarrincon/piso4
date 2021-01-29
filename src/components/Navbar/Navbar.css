@@ -13,6 +13,11 @@
   border-left: solid 2px #000000;
 }
 
+.navbar p {
+  font-size: 12px;
+  text-decoration: none;
+}
+
 .navbar button {
   height: 52px;
   width: 52px;
