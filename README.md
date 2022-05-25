@@ -2,7 +2,7 @@
 This is a elevator for publicity agency
 
 
-[![Site preview](/src/piso4.gif)](https://abgonzalezparra.com/)
+[![Site preview](/src/piso4.gif)](https://edgarrincon.github.io/piso4/)
 
 
 This project is one of the most creative I have ever worked on.
